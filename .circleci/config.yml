@@ -36,6 +36,7 @@ jobs:
             ./tests --gtest_output=XML
       - store_test_results:
           path: build
+          
 workflows:
   version: 2
   build-and-test:
