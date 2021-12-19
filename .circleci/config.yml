@@ -3,8 +3,8 @@ executors:
   exectr:
     docker:
       - image: 432413/ubuntu-vs:latest
-      auth:
-          username: 432413 
+        auth:
+          username: "432413" 
           password: $PASS
 jobs:
   build:
