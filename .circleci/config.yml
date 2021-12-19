@@ -3,9 +3,6 @@ executors:
   exectr:
     docker:
       - image: 432413/e4cb58df7e45:latest
-        auth:
-          username: "432413" 
-          password: $PASS
 jobs:
   build:
     executor: exectr
