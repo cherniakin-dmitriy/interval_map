@@ -2,7 +2,7 @@ version: 2.1
 executors:
   exectr:
     docker:
-      - image: cherniakin-dmitriy/interval_map:latest
+      - image: 432413/interval_map:latest
 jobs:
   build:
     executor: exectr
